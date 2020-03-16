@@ -1,0 +1,127 @@
+*{margin: 0; padding: 0;}
+
+html, body {100%}
+
+.divglobal /*crée les marges de coter 10px chacun*/
+{   
+    float: left;
+    padding: 0px 10px 0px 10px; 
+    background-color: whitesmoke;
+    width: 935px;
+}
+
+.classdiv1 /*Baniere*/
+{
+    background-color: white;
+    float: left;
+    width: 935px;
+    height: 100px;
+}
+
+.classdiv2 /***MENU***/
+{
+    background: url("fichiers-images/lustucru.jpg");
+    float: left;
+    width: 935px;
+    height: 37px;
+}
+
+/*Debut Selecteur, class et id de Nav*/
+/*Selecteur ID Nav*/
+
+body div div nav ul li
+{
+    display: inline-block;
+}
+
+body div div footer nav ul li
+{
+    display: inline-block;
+}
+
+body div div #navUN ul
+{
+    border-top: solid 6px red;
+    padding-left: 45px;
+}
+
+body div div footer #navDEUX ul li
+{ 
+    padding-right: 25px;
+    float: right;
+}
+
+/*ClassNav*/
+
+.nav1
+
+.nav2
+
+
+/*Fin Selecteur, class et id de Nav*/
+
+.classdiv3 /**CONTENUE**/
+{
+    background-color: red;
+    float: left;
+    width: 935px;
+    height: 440px;
+}
+
+p, h1 {
+    font-family: arial
+}
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sousdiv31 /****/
+{
+    float: left;
+    width: 935px;
+    height: 440px;
+}
+.sousdiv32 /****/
+{
+    margin-top: 8px;
+    margin-left: 40px;
+    border-top-left-radius : 30px;
+    border-bottom-left-radius : 30px;
+    background-color: white;
+    float: left;
+    width: 665px;
+    height: 440px;
+}
+
+.classdiv4 /**BAS DE PAGE**/
+{
+    background: url("fichiers-images/lustucru.jpg");
+    float: left;
+    width: 935px;
+    height: 35px;
+    border-bottom: solid 6px red;
+}
+
+.imagebildingdiv3
+{
+    float: left;
+    margin-left: 30px;
+    width: 200px ;
+    height: 300px ;
+}
+
+.imagelogoEmerson
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.imagePartenaire
+{   
+float: left;
+margin-left: 345Px;
+margin-top: 80px;
+    
+}
